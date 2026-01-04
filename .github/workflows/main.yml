@@ -27,7 +27,7 @@ jobs:
 
       - name: Run update script
         run: |
-          python scripts/update_subscribe.py
+          python main.py
 
       - name: Commit and push if changed
         run: |
