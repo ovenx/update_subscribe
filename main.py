@@ -42,7 +42,7 @@ for tr in soup.find_all("tr"):
     if tds and tds[0].get_text(strip=True) == "token":
         code = tds[5].find("details")
         if code:
-            token_value = code.get_text(strip=True)
+            token_value = code.get_text(strip=True).replace("点击查看最新密钥", "")
         break
 
 if not token_value:
