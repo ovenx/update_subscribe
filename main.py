@@ -40,7 +40,7 @@ token_value = None
 for tr in soup.find_all("tr"):
     tds = tr.find_all("td")
     if tds and tds[0].get_text(strip=True) == "token":
-        code = tds[5].find("code")
+        code = tds[5].find("details")
         if code:
             token_value = code.get_text(strip=True)
         break
