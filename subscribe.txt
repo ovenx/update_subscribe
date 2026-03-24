@@ -1,1 +1,1 @@
-https://proxy-manager-ggeu.onrender.com/api/v1/subscribe?token=5ux6j08y3b2wefhdlnt3&target=clash&list=0
+https://raoku-pm.hf.space/api/v1/subscribe?token=f1zk66yqufbze408132k7635&target=clash&list=0
